@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS  sELECTORS</title>
+    <style>
+        /* Element Selector */
+        div{
+            color: white;
+            background-color: red;
+        }
+
+        /* Class Selector */
+        .class{
+            background-color: yellow;
+            color: red;
+        }
+
+        /* ID Selector */
+        #id{
+            background-color: aqua;
+            color: black;
+        }
+
+        /* Child Selector */
+        div > p{
+            background-color: black;
+            color: white;
+        }
+
+        /* Universal Selector */
+        * {
+        }
+    </style>
+</head>
+<body>
+    <div>hello I am in div</div>
+
+    <p class="class">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, quis?</p>
+
+    <p id="id">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, quis?</p>
+
+    <div>
+        <p>
+            This is a paragraph inside a div
+        </p>
+    </div>
+</body>
+</html>
